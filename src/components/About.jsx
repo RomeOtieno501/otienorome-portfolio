@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../styles/index.css";
+import meImage from "../assets/me.jpg"; 
 
 const About = () => {
   return (
@@ -45,7 +46,7 @@ const About = () => {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          <img src="/path-to-your-image.jpg" alt="Rome Otieno" />
+          <img src={meImage} alt="Rome Otieno" />
         </motion.div>
       </div>
     </motion.section>
